@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	height: 56px;
+	background-color: #2874f0;
+}
+
+.flipkart-logo-section a {
+	color: rgb(240, 240, 240);
+}
+
+.flipkart-logo {
+	width: 75px;
+}
+
+.flipkart-plus-icon {
+	width: 10px;
+}
