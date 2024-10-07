@@ -209,8 +209,9 @@ footer {
 .footer-content-top {
 	margin-left: 65px;
 	padding-top: 40px;
+	padding-bottom: 30px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .footer-content-top-item {
@@ -232,4 +233,14 @@ footer {
 
 .footer-content-item-title {
 	color: #878787;
+	margin-bottom: 8px;
+}
+
+.footer-content-bottom {
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-top: 0.1rem solid #454d5e;
+	height: 73px;
 }
