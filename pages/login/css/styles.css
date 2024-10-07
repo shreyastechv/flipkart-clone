@@ -246,6 +246,14 @@ footer {
 	gap: 16px;
 }
 
+.tel-links a {
+	color: rgb(40, 116, 240);
+}
+
+.tel-links a:hover {
+	text-decoration: none;
+}
+
 .footer-bottom {
 	font-size: 14px;
 	display: flex;
@@ -259,4 +267,9 @@ footer {
 	display: flex;
 	align-items: center;
 	gap: 8px;
+}
+
+.footer-bottom-item a {
+	color: #fff;
+	text-decoration: none;
 }
