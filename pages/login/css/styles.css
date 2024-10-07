@@ -46,10 +46,6 @@ nav {
 	width: 304px;
 }
 
-.search-input {
-	width: 100%;
-}
-
 .searchbar input {
 	outline: none;
 	border: none;
@@ -244,12 +240,16 @@ footer {
 	justify-content: space-evenly;
 }
 
+.footer-top div:nth-of-type(5) {
+	padding-left: 25px;
+	border-left: 0.1rem solid #454d5e;;
+}
+
 .footer-top-item {
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
 }
-
 
 .footer-top-item a {
 	text-decoration: none;
