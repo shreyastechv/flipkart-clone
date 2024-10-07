@@ -4,7 +4,7 @@
 }
 
 body, button, input, select, textarea {
-	font-family: Inter,-apple-system,Helvetica,Arial,sans-serif;
+	font-family: Inter, Helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -93,4 +93,22 @@ nav {
 	text-decoration: none;
 	font-size: 15px;
 	font-weight: 600;
+}
+
+.category-selector {
+	font-size: 14px;
+	font-weight: 590;
+}
+
+.categories {
+	gap: 15px;
+}
+
+.categories div {
+	gap: 1px;
+}
+
+.categories div i {
+	font-size: 10px;
+	color: #bfbfbf;
 }
