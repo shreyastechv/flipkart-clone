@@ -5,6 +5,7 @@
 
 body, button, input, select, textarea {
 	font-family: Inter, Helvetica, Arial, sans-serif;
+	background-color: #f1f3f6;
 }
 
 nav {
@@ -123,6 +124,7 @@ nav {
 	margin-top: 16px;
 	margin-right: auto;
 	margin-left: auto;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .login-left {
@@ -156,11 +158,13 @@ nav {
 	outline: none;
 	border: none;
 	border-bottom: 1px solid #d7d7d7;
+	padding: 8px 10px 10px 0;
 	margin-bottom: 34px;
+	transition: 0.3s;
 }
 
-.login-input:active {
-	border-bottom: 1px solid black;
+.login-input:focus, .login-input:not(:placeholder-shown) {
+	border-bottom: 1px solid blue;
 }
 
 .form-msg {
@@ -181,4 +185,51 @@ nav {
 	border-radius: 1px;
 	height: 48px;
 	margin-top: 16px;
+}
+
+.signup-link {
+	font-size: 14px;
+	margin-top: 260px;
+	display: flex;
+	justify-content: center;
+}
+
+.signup-link a {
+	text-decoration: none;
+	font-weight: 400;
+}
+
+footer {
+	margin-top: 25px;
+	color: #fff;
+	background-color: #172337;
+	border-top: 1px solid #172337;
+}
+
+.footer-content-top {
+	margin-left: 65px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-content-top-item {
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.footer-content-top-item a {
+	text-decoration: none;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+.footer-content-top-item p {
+	margin-bottom: 0;
+}
+
+.footer-content-item-title {
+	color: #878787;
 }
