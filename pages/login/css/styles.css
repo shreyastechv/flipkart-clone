@@ -227,6 +227,10 @@ footer {
 	color: #fff;
 }
 
+.footer-content-top-item a:hover {
+	text-decoration: underline;
+}
+
 .footer-content-top-item p {
 	margin-bottom: 0;
 }
@@ -236,6 +240,11 @@ footer {
 	margin-bottom: 8px;
 }
 
+.footer-social-media-icons {
+	display: flex;
+	gap: 16px;
+}
+
 .footer-content-bottom {
 	font-size: 14px;
 	display: flex;
@@ -243,4 +252,10 @@ footer {
 	justify-content: space-evenly;
 	border-top: 0.1rem solid #454d5e;
 	height: 73px;
+}
+
+.footer-content-bottom-item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
 }
