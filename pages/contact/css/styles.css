@@ -37,27 +37,16 @@ nav {
 	width: 10px;
 }
 
-.searchbar {
-	background-color: rgb(255, 255, 255);
-	border-radius: 1px;
-	margin-left: 12px;
-	font-size: 14px;
-	height: 36px;
-	width: 304px;
+.nav-heading-section {
+	width: 330px;
+	padding: 10px;
 }
 
-.searchbar input {
-	outline: none;
-	border: none;
-	padding-left: 16px;
-	padding-right: 16px;
-	width: 262px;
-}
-
-.search-button {
-	border: none;
-	width: 42px;
-	background-color: transparent;
+.nav-heading-text {
+	color: white;
+	font-weight: 500;
+	padding-left: 8px;
+	border-left: 1px solid white;
 }
 
 .nav-login-btn {
