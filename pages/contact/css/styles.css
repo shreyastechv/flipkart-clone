@@ -131,6 +131,122 @@ main {
 	color: red;
 }
 
+.content {
+	padding: 14px 83px 0 83px;
+}
+
+.content-top h2 {
+	font-size: 17px;
+	font-weight: 700;
+}
+
+.content-top p {
+	font-size: 11px;
+	color: #878787;
+	line-height: 1.6;
+}
+
+.content-middle {
+	display: flex;
+}
+
+.content-middle-left {
+	width: 25%;
+	height: 560px;
+	overflow-y: scroll;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+}
+
+.content-middle-left-section-heading {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 22px 16px 0 32px;
+	margin-bottom: 14px;
+}
+
+.content-middle-left div:not(.content-middle-left-section-heading):not(.content-middle-sep) {
+	font-size: 13px;
+	padding: 13px 48px;
+}
+
+.content-middle-left div:not(.content-middle-left-section-heading):not(.content-middle-sep):hover {
+	color: #2874f0;
+	cursor: pointer;
+}
+
+.content-middle-sep {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.content-middle-right {
+	width: 75%;
+}
+
+.content-middle-right > div {
+	padding: 16px 19px;
+	margin-left: 15px;
+	margin-bottom: 8px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+}
+
+.helpcentre-section {
+	color: grey;
+	font-size: 11px;
+	display: flex;
+	align-items: center;
+}
+
+.helpcentre-section span:hover {
+	color: #2874f0;
+	cursor: pointer;
+}
+
+.items-issue-section span {
+	font-size: 17px;
+}
+
+.issues-section-heading {
+	font-size: 17px
+	padding: 16px 0 8px 0;
+	margin: 4px 0;
+}
+
+.issue {
+	padding: 16px 0;
+	display: flex;
+	cursor: pointer;
+}
+
+.issue-heading {
+	font-size: 13px;
+}
+
+.issue-description {
+	font-size: 11px;
+	color: #878787;
+	margin-top: 5px;
+}
+
+.issue-right {
+	margin-left: auto;
+	font-size: 12px;
+}
+
+.reachout {
+	font-size: 11px;
+	font-weight: 500;
+	color: grey;
+	margin-left: 33px;
+}
+
+.reachout a {
+	color: #2874f0;
+	text-decoration: none;
+}
+
 footer {
 	margin-top: 25px;
 	color: #fff;
