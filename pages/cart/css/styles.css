@@ -41,9 +41,10 @@ nav {
 	background-color: rgb(255, 255, 255);
 	border-radius: 1px;
 	margin-left: 12px;
+	margin-right: 200px;
 	font-size: 14px;
 	height: 36px;
-	width: 304px;
+	width: 334px;
 }
 
 .searchbar input {
@@ -51,7 +52,7 @@ nav {
 	border: none;
 	padding-left: 16px;
 	padding-right: 16px;
-	width: 262px;
+	width: 292px;
 }
 
 .search-button {
@@ -83,7 +84,21 @@ main {
 
 footer {
 	margin-top: 25px;
-	color: #fff;
-	background-color: #172337;
+	padding: 25px 90px;
+	color: rgb(86, 86, 86);
 	border-top: 1px solid #172337;
+	height: 31px;
+	font-size: 14px;
+	font-weight: 300;
+	display: flex;
+	gap: 40px;
+	justify-content: space-between;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.footer-left a {
+	color: inherit;
 }
