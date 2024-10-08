@@ -87,11 +87,10 @@ footer {
 	padding: 25px 90px;
 	color: rgb(86, 86, 86);
 	border-top: 1px solid #172337;
-	height: 31px;
 	font-size: 14px;
 	font-weight: 300;
 	display: flex;
-	gap: 40px;
+	gap: 10px;
 	justify-content: space-between;
 }
 
