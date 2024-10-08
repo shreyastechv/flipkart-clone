@@ -282,8 +282,9 @@ main {
 }
 
 .product {
-	padding: 24px 0 30px 24px;
+	padding: 24px 0 30px 10px;
 	display: flex;
+	cursor: pointer;
 }
 
 .product-left {
@@ -299,7 +300,9 @@ main {
 }
 
 .product-middle {
-	padding-left: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 520px;
 }
 
 .sponsored-badge {
@@ -314,9 +317,14 @@ main {
 	margin: 5px 0;
 }
 
+.product-name:hover {
+	cursor: pointer;
+	color: #2874f0;
+}
+
 .product-rating {
 	display: flex;
-	gap: 5px;
+	gap: 8px;
 	font-size: 13px;
 	font-weight: 600;
 	color: #878787;
@@ -339,6 +347,53 @@ main {
 .product-details ul {
 	padding-left: 20px;
 	font-size: 14px;
+}
+
+.buying-details {
+	display: flex;
+}
+
+.price-details {
+	display: flex;
+	flex-direction: column;
+}
+
+.sale-price {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.orig-price {
+	font-size: 13px;
+	font-weight: 400;
+	color: #878787;
+	text-decoration: line-through;
+}
+
+.discount-percent {
+	font-size: 13px;
+	font-weight: 500;
+	color: #388e3c;
+}
+
+.delivery-cost {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.flipkart-assured-logo img {
+	height: 21px;
+}
+
+.save-extra-text {
+	font-size: 12px;
+	font-weight: 700;
+	color: rgb(38, 165, 65);
+}
+
+.offer-text {
+	font-size: 13px;
+	font-weight: 400;
 }
 
 footer {
