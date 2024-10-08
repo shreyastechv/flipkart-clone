@@ -132,7 +132,7 @@ main {
 }
 
 .content {
-	padding: 14px 83px 0 83px;
+	padding: 14px 83px 40px 83px;
 }
 
 .content-top h2 {
@@ -245,6 +245,28 @@ main {
 .reachout a {
 	color: #2874f0;
 	text-decoration: none;
+}
+
+.content-bottom {
+	padding: 20px 25px 0 25px;
+	background-color: #fff;
+	border-top: 0.1rem solid #e7e7e7;
+}
+
+.content-bottom-item span {
+	font-size: 11px;
+	font-weight: 500;
+	color: #838383;
+}
+
+.content-bottom-item p {
+	font-size: 11px;
+	color: #878787;
+}
+
+.content-bottom-item a {
+	text-decoration: none;
+	color: #2874f0;
 }
 
 footer {
