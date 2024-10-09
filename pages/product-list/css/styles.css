@@ -252,6 +252,11 @@ main {
 	margin-bottom: 8px;
 }
 
+.path span:hover {
+	cursor: pointer;
+	color: #2874f0;
+}
+
 .path i {
 	font-size: 8px;
 }
