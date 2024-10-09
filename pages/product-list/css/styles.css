@@ -21,6 +21,10 @@ nav {
 	background-color: #2874f0;
 }
 
+.nav-left-pad {
+	width: 182px;
+}
+
 .flipkart-logo-section a {
 	color: rgb(240, 240, 240);
 }
