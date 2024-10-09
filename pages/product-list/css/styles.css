@@ -452,6 +452,7 @@ main {
 .content-bottom {
 	background-color: #fff;
 	margin-top: 15px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
 }
 
 .content-bottom-heading {
