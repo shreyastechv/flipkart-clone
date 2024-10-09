@@ -21,8 +21,12 @@ nav {
 	background-color: #2874f0;
 }
 
+.nav-left-pad {
+	width: 182px;
+}
+
 .flipkart-logo-section a {
-	color: rgb(240, 240, 240);
+	height: 18px;
 }
 
 .flipkart-logo {
@@ -52,6 +56,7 @@ nav {
 	padding-left: 16px;
 	padding-right: 16px;
 	width: 262px;
+	background-color: transparent;
 }
 
 .search-button {
@@ -152,11 +157,12 @@ main {
 }
 
 .top-left {
-	width: 310px;
+	width: 270px;
 }
 
 .filters {
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+	width: 270px;
 }
 
 .filters > div {
@@ -196,6 +202,10 @@ main {
 	padding-left: 11px;
 }
 
+.filter {
+	cursor: pointer;
+}
+
 .filter-heading {
 	display: flex;
 }
@@ -203,6 +213,7 @@ main {
 .filter-heading span {
 	font-size: 13px;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .filter-heading i {
@@ -233,9 +244,9 @@ main {
 }
 
 .top-right {
-	width: 90%;
+	width: 100%;
 	background-color: #fff;
-	padding: 15px;
+	padding: 15px 15px 0 15px;
 }
 
 .products-header {
@@ -249,6 +260,11 @@ main {
 	align-items: center;
 	gap: 8px;
 	margin-bottom: 8px;
+}
+
+.path span:hover {
+	cursor: pointer;
+	color: #2874f0;
 }
 
 .path i {
@@ -275,6 +291,10 @@ main {
 	padding-bottom: 5px;
 }
 
+.sort-by div {
+	cursor: pointer;
+}
+
 .sort-by div.selected {
 	color: #2874f0;
 	border-bottom: 2px solid #2874f0;
@@ -285,11 +305,18 @@ main {
 	padding: 24px 0 30px 10px;
 	display: flex;
 	cursor: pointer;
+	border-bottom: 0.1rem solid #e1e1e1;
+}
+
+.product:hover .product-name {
+	cursor: pointer;
+	color: #2874f0;
 }
 
 .product-left {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	width: 200px;
 	font-size: 13px;
 }
@@ -302,7 +329,7 @@ main {
 .product-middle {
 	padding-left: 25px;
 	padding-right: 25px;
-	width: 520px;
+	width: 60%;
 }
 
 .sponsored-badge {
@@ -315,11 +342,6 @@ main {
 	font-weight: 600;
 	line-height: 1;
 	margin: 5px 0;
-}
-
-.product-name:hover {
-	cursor: pointer;
-	color: #2874f0;
 }
 
 .product-rating {
@@ -347,6 +369,11 @@ main {
 .product-details ul {
 	padding-left: 20px;
 	font-size: 14px;
+}
+
+.product-right {
+	width: 300px;
+	padding-right: 10px;
 }
 
 .buying-details {
@@ -394,6 +421,146 @@ main {
 .offer-text {
 	font-size: 13px;
 	font-weight: 400;
+}
+
+.page-number-section {
+	display: flex;
+	padding: 16px 10px;
+	font-size: 13px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bottom-nav {
+	display: flex;
+	font-weight: 600;
+}
+
+.page-number {
+	padding: 7px 12px;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #212121;
+}
+
+.page-number.current-page {
+	color: #fff;
+	background-color: #2874f0;
+}
+
+.next-btn {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.content-bottom {
+	background-color: #fff;
+	margin-top: 15px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+}
+
+.content-bottom-heading {
+	padding: 15px 20px;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.popular-product {
+	display: flex;
+	font-size: 13px;
+	justify-content: space-between;
+	gap: 15px;
+	padding: 25px 0;
+	border-top: 0.1rem solid #e7e7e7;
+}
+
+.popular-product-left {
+	display: flex;
+	width: 546px;
+}
+
+.popular-prod-image {
+	margin: 0 20px;
+}
+
+.popular-prod-details {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.popular-prod-details div {
+	display: flex;
+}
+
+.popular-prod-name {
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.popular-prod-image img {
+	width: 150px;
+	margin: 14px 0;
+}
+
+.popular-product-rating {
+	display: flex;
+	gap: 8px;
+	font-weight: 600;
+	line-height: 1.6;
+}
+
+.popular-rating {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	background-color: #388e3c;
+	font-size: 11px;
+	padding: 1px 5px;
+	border-radius: 3px;
+	gap: 3px;
+}
+
+.popular-rating img {
+	width: 11px;
+	height: 11px;
+}
+.review-text {
+	margin: 12px 0;
+}
+
+.popular-prod-price {
+	gap: 10px;
+}
+
+.popular-prod-sale-price {
+	font-weight: 600;
+}
+
+.popular-prod-discount-percent {
+	color: #878787;
+}
+
+.popular-product-middle {
+	width: 400px;
+}
+
+.popular-product-middle div:last-child {
+	font-size: 11px;
+	gap: 10px;
+}
+
+.user-name {
+	font-weight: 600;
+}
+
+.popular-product-middle i {
+	font-size: 14px;
+}
+
+.popular-product-right {
+	width: 400px;
 }
 
 footer {
@@ -477,4 +644,8 @@ footer {
 .footer-bottom-item a {
 	color: #fff;
 	text-decoration: none;
+}
+
+.faded {
+	color: #878787;
 }

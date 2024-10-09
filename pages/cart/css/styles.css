@@ -21,8 +21,12 @@ nav {
 	background-color: #2874f0;
 }
 
+.nav-left-pad {
+	width: 182px;
+}
+
 .flipkart-logo-section a {
-	color: rgb(240, 240, 240);
+	height: 18px;
 }
 
 .flipkart-logo {
@@ -53,6 +57,7 @@ nav {
 	padding-left: 16px;
 	padding-right: 16px;
 	width: 292px;
+	background-color: transparent;
 }
 
 .search-button {
@@ -84,7 +89,8 @@ main {
 
 .content {
 	display: flex;
-	padding: 25px 35px;
+	padding: 8px;
+	margin: 16px 45px;
 }
 
 .content > div {
@@ -117,18 +123,159 @@ main {
 	background-color: #fff;
 }
 
+.cart-prod {
+	padding: 24px;
+	border-top: 0.05rem solid #e3e3e3;
+}
+
+.prod-top {
+	display: flex;
+}
+
+.prod-top-left img {
+	width: 112px;
+	margin: 20px 0;
+}
+
+.prod-top-middle {
+	padding: 0 24px 12px 24px;
+	display: flex;
+	flex-direction: column;
+}
+
+.prod-name {
+	font-size: 15px;
+	text-decoration: none;
+	color: #212121;
+	width: 380px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.prod-details {
+	color: #878787;
+	font-size: 13px;
+}
+
+.seller-name {
+	font-size: 13px;
+	color: #878787;
+	font-weight: 400;
+}
+
+.flipkart-assured-logo {
+	width: 55px;
+}
+
+.prod-top-middle div:last-child {
+	margin-top: 18px;
+}
+
+.orig-price {
+	font-size: 13px;
+	font-weight: 500;
+	color: #878787;
+	text-decoration: line-through;
+	margin: 0 10px 0 0;
+}
+
+.sale-price {
+	font-size: 17px;
+	font-weight: 500;
+	margin: 0 8px 0 0;
+}
+
+.discount-percent {
+	font-size: 13px;
+	font-weight: 500;
+	color: #388e3c;
+	margin: 0 10px 0 0;
+}
+
+.offers {
+	font-size: 13px;
+	font-weight: 500;
+	color: #388e3c;
+	cursor: pointer;
+}
+
+.prod-top-right {
+	font-size: 13px;
+}
+
+.orig-deliv-charge {
+	color: #717478;
+	text-decoration: line-through;
+}
+
+.curr-deliv-charge {
+	color: #388e3c;
+}
+
+.product-bottom {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	gap: 22px;
+}
+
+.product-bottom a {
+	text-decoration: none;
+	color: #212121;
+	font-weight: 500;
+}
+
+.product-bottom a:hover {
+	color: #2874f0;
+}
+
+.decrement-btn, .increment-btn {
+	padding: 0 8px;
+	border: 0.1rem solid #c2c2c2;
+	border-radius: 25px;
+	margin: 0 1px;
+}
+
+.prod-count {
+	width: 45px;
+	text-align: center;
+	border: 0.1rem solid #c2c2c2;
+	outline: none;
+}
+
+.order-btn-section {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 18px 22px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16), 0 -1px 2px 0 rgba(0, 0, 0, .16);
+	/*position: sticky;
+	bottom: 0px;
+	height: 200px;*/
+}
+
+.order-btn {
+	color: #fff;
+	background-color: #fb641b;
+	border: none;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 14px 65px;
+	border-radius: 2px;
+}
+
 .content-right {
 	width: 435px;
-	padding: 10px 0;
 	background-color: #fff;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16), 0 -1px 2px 0 rgba(0, 0, 0, .16);
+	height: 310px;
 }
 
 .content-right-top {
 	border-bottom: 1px solid #f0f0f0;
 	padding: 13px 24px;
 	color: #878787;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 500;
 	text-transform: uppercase;
 }
@@ -138,12 +285,7 @@ main {
 }
 
 .content-right-bottom div {
-	margin: 10px 0;
-}
-
-/* FIX: Need to fix the below */
-.content-right-bottom div span:nth-of-type(2) {
-	margin-left: auto;
+	margin: 8px 0;
 }
 
 .green {
@@ -155,25 +297,46 @@ main {
 }
 
 .content-right-bottom-1 {
-	font-size: 16px;
+	font-size: 15px;
 	color: #212121;
 }
 
-.delivery-charges span span:nth-of-type(1) {
+.content-right-bottom-1 > div, .content-right-bottom-2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.delivery-charges div div:nth-of-type(1) {
 	color: #717478;
 }
 
 .line-through {
 	text-decoration: line-through;
+	color: #717478;
 }
 
 .content-right-bottom-2 {
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 500;
 }
 
 .content-right-bottom-3 {
+	font-size: 15px;
 	font-weight: 500;
+}
+
+.content-right-end {
+	display: flex;
+	padding: 18px;
+	margin-top: 40px;
+	font-size: 13px;
+	font-weight: 500;
+	color: #878787;
+	gap: 10px;
+}
+
+.secure-sign-icon {
+	width: 25px;
 }
 
 footer {

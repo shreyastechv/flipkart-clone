@@ -22,7 +22,7 @@ nav {
 }
 
 .flipkart-logo-section a {
-	color: rgb(240, 240, 240);
+	height: 18px;
 }
 
 .flipkart-logo {
@@ -52,6 +52,7 @@ nav {
 	padding-left: 16px;
 	padding-right: 16px;
 	width: 262px;
+	background-color: transparent;
 }
 
 .search-button {
