@@ -197,6 +197,10 @@ main {
 	padding-left: 11px;
 }
 
+.filter {
+	cursor: pointer;
+}
+
 .filter-heading {
 	display: flex;
 }
@@ -204,6 +208,7 @@ main {
 .filter-heading span {
 	font-size: 13px;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .filter-heading i {
