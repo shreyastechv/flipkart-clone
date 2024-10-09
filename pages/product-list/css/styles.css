@@ -37,16 +37,27 @@ nav {
 	width: 10px;
 }
 
-.nav-heading-section {
-	width: 330px;
-	padding: 10px;
+.searchbar {
+	background-color: rgb(255, 255, 255);
+	border-radius: 1px;
+	margin-left: 12px;
+	font-size: 14px;
+	height: 36px;
+	width: 304px;
 }
 
-.nav-heading-text {
-	color: white;
-	font-weight: 500;
-	padding-left: 8px;
-	border-left: 1px solid white;
+.searchbar input {
+	outline: none;
+	border: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	width: 262px;
+}
+
+.search-button {
+	border: none;
+	width: 42px;
+	background-color: transparent;
 }
 
 .nav-login-btn {
@@ -132,141 +143,257 @@ main {
 }
 
 .content {
-	padding: 14px 83px 40px 83px;
+	padding: 8px;
 }
 
-.content-top h2 {
-	font-size: 17px;
-	font-weight: 700;
-}
-
-.content-top p {
-	font-size: 11px;
-	color: #878787;
-	line-height: 1.6;
-}
-
-.content-middle {
+.content-top {
 	display: flex;
+	gap: 8px;
 }
 
-.content-middle-left {
-	width: 25%;
-	height: 560px;
-	overflow-y: scroll;
-	background-color: #fff;
+.top-left {
+	width: 310px;
+}
+
+.filters {
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
 }
 
-.content-middle-left-section-heading {
+.filters > div {
+	padding: 13px 15px;
+	background-color: #fff;
+	border-bottom: 0.1rem solid #e9e9e9;
+}
+
+.filters-heading {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.filters-category {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.filters-category span i {
+	font-size: 10px;
+}
+
+.filters-category span:nth-of-type(1) {
 	font-size: 11px;
-	font-weight: bold;
-	padding: 22px 16px 0 32px;
-	margin-bottom: 14px;
+	font-weight: 500;
 }
 
-.content-middle-left div:not(.content-middle-left-section-heading):not(.content-middle-sep) {
+.filters-category span:nth-of-type(2) {
+	color: #878787;
 	font-size: 13px;
-	padding: 13px 48px;
 }
 
-.content-middle-left div:not(.content-middle-left-section-heading):not(.content-middle-sep):hover {
+.filters-category span:nth-of-type(3) {
+	font-size: 13px;
+	font-weight: 600;
+	padding-left: 11px;
+}
+
+.filter-heading {
+	display: flex;
+}
+
+.filter-heading span {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.filter-heading i {
+	margin-left: auto;
+	font-size: 10px;
+}
+
+.help {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0;
+	gap: 1px;
+	font-size: 14px;
+}
+
+.help span:nth-of-type(2) {
 	color: #2874f0;
-	cursor: pointer;
+	font-size: 18px;
 }
 
-.content-middle-sep {
-	padding: 0;
+.help span i {
+	font-size: 11px;
+}
+
+.help img {
 	margin-top: 10px;
 }
 
-.content-middle-right {
-	width: 75%;
-}
-
-.content-middle-right > div {
-	padding: 16px 19px;
-	margin-left: 15px;
-	margin-bottom: 8px;
+.top-right {
+	width: 90%;
 	background-color: #fff;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+	padding: 15px;
 }
 
-.helpcentre-section {
-	color: grey;
+.products-header {
+	border-bottom: 0.1px solid #ededed;
+}
+
+.path {
+	display: flex;
 	font-size: 11px;
-	display: flex;
+	color: grey;
 	align-items: center;
+	gap: 8px;
+	margin-bottom: 8px;
 }
 
-.helpcentre-section span:hover {
+.path i {
+	font-size: 8px;
+}
+
+.results-index {
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.sort-by {
+	display: flex;
+	font-size: 13px;
+	gap: 20px;
+}
+
+.sort-by span {
+	font-weight: 600;
+}
+
+.sort-by * {
+	padding-bottom: 5px;
+}
+
+.sort-by div.selected {
 	color: #2874f0;
-	cursor: pointer;
+	border-bottom: 2px solid #2874f0;
+	font-weight: bold;
 }
 
-.items-issue-section span {
-	font-size: 17px;
-}
-
-.issues-section-heading {
-	font-size: 17px
-	padding: 16px 0 8px 0;
-	margin: 4px 0;
-}
-
-.issue {
-	padding: 16px 0;
+.product {
+	padding: 24px 0 30px 10px;
 	display: flex;
 	cursor: pointer;
 }
 
-.issue-heading {
+.product-left {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
 	font-size: 13px;
 }
 
-.issue-description {
-	font-size: 11px;
-	color: #878787;
-	margin-top: 5px;
+.product-left img {
+	width: 200px;
+	margin: 34px 0;
 }
 
-.issue-right {
-	margin-left: auto;
+.product-middle {
+	padding-left: 25px;
+	padding-right: 25px;
+	width: 520px;
+}
+
+.sponsored-badge {
 	font-size: 12px;
+	color: #bdbdbd;
 }
 
-.reachout {
-	font-size: 11px;
-	font-weight: 500;
-	color: grey;
-	margin-left: 33px;
+.product-name {
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1;
+	margin: 5px 0;
 }
 
-.reachout a {
+.product-name:hover {
+	cursor: pointer;
 	color: #2874f0;
-	text-decoration: none;
 }
 
-.content-bottom {
-	padding: 20px 25px 0 25px;
-	background-color: #fff;
-	border-top: 0.1rem solid #e7e7e7;
-}
-
-.content-bottom-item span {
-	font-size: 11px;
-	font-weight: 500;
-	color: #838383;
-}
-
-.content-bottom-item p {
-	font-size: 11px;
+.product-rating {
+	display: flex;
+	gap: 8px;
+	font-size: 13px;
+	font-weight: 600;
 	color: #878787;
+	margin-bottom: 18px;
+	line-height: 1.6;
 }
 
-.content-bottom-item a {
-	text-decoration: none;
-	color: #2874f0;
+.rating {
+	color: #fff;
+	background-color: #388e3c;
+	font-size: 11px;
+	padding: 1px 5px;
+	border-radius: 3px;
+}
+
+.rating img {
+	width: 11px;
+}
+
+.product-details ul {
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.buying-details {
+	display: flex;
+}
+
+.price-details {
+	display: flex;
+	flex-direction: column;
+}
+
+.sale-price {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.orig-price {
+	font-size: 13px;
+	font-weight: 400;
+	color: #878787;
+	text-decoration: line-through;
+}
+
+.discount-percent {
+	font-size: 13px;
+	font-weight: 500;
+	color: #388e3c;
+}
+
+.delivery-cost {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.flipkart-assured-logo img {
+	height: 21px;
+}
+
+.save-extra-text {
+	font-size: 12px;
+	font-weight: 700;
+	color: rgb(38, 165, 65);
+}
+
+.offer-text {
+	font-size: 13px;
+	font-weight: 400;
 }
 
 footer {
