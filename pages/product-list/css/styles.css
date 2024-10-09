@@ -152,11 +152,12 @@ main {
 }
 
 .top-left {
-	width: 310px;
+	width: 270px;
 }
 
 .filters {
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+	width: 270px;
 }
 
 .filters > div {
@@ -233,7 +234,7 @@ main {
 }
 
 .top-right {
-	width: 90%;
+	width: 100%;
 	background-color: #fff;
 	padding: 15px;
 }
@@ -275,6 +276,10 @@ main {
 	padding-bottom: 5px;
 }
 
+.sort-by div {
+	cursor: pointer;
+}
+
 .sort-by div.selected {
 	color: #2874f0;
 	border-bottom: 2px solid #2874f0;
@@ -285,11 +290,18 @@ main {
 	padding: 24px 0 30px 10px;
 	display: flex;
 	cursor: pointer;
+	border-bottom: 0.1rem solid #e1e1e1;
+}
+
+.product:hover .product-name {
+	cursor: pointer;
+	color: #2874f0;
 }
 
 .product-left {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	width: 200px;
 	font-size: 13px;
 }
@@ -302,7 +314,7 @@ main {
 .product-middle {
 	padding-left: 25px;
 	padding-right: 25px;
-	width: 520px;
+	width: 60%;
 }
 
 .sponsored-badge {
@@ -315,11 +327,6 @@ main {
 	font-weight: 600;
 	line-height: 1;
 	margin: 5px 0;
-}
-
-.product-name:hover {
-	cursor: pointer;
-	color: #2874f0;
 }
 
 .product-rating {
@@ -347,6 +354,11 @@ main {
 .product-details ul {
 	padding-left: 20px;
 	font-size: 14px;
+}
+
+.product-right {
+	width: 300px;
+	padding-right: 10px;
 }
 
 .buying-details {
