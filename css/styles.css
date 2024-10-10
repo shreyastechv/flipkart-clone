@@ -109,7 +109,7 @@ main {
 	display: flex;
 	justify-content: space-between;
 	background-color: #fff;
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 
 .category {
