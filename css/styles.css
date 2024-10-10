@@ -200,6 +200,54 @@ main {
 	width: 100%;
 }
 
+.elec-deals-content {
+	overflow-x: auto;
+}
+
+.elec-deals-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 19px;
+	font-weight: 500;
+	padding: 16px;
+	cursor: pointer;
+}
+
+.elec-deals-header i {
+	font-size: 22px;
+	color: rgb(42, 85, 229);
+}
+
+.elec-deals-items {
+	display: flex;
+	gap: 15px;
+}
+
+.elec-deals-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 6px 10px;
+	border: 0.1rem solid #dfdfdf;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.elec-deals-img img {
+	height: 130px;
+	transition: transform .2s;
+}
+
+.elec-deals-item:hover .under-300-img {
+	transform: scale(1.04);
+}
+
+.elec-deals-offer img {
+	width: 200px;
+}
+
 footer {
 	margin-top: 25px;
 	color: #fff;
