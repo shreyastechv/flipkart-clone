@@ -191,3 +191,14 @@ footer {
 .footer-bottom-item img:not(:last-child) {
 	width: 11px;
 }
+
+@media (max-width: 1192px) {
+	.cart-btn span, .seller-btn span {
+		display: none;
+	}
+
+	.nav-btn {
+		padding: 20px 0;
+		margin: 0 15px;
+	}
+}
