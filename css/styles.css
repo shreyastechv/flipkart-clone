@@ -132,6 +132,7 @@ main {
 .under-300 {
 	display: flex;
 	background-color: #fff;
+	margin-top: 15px;
 	overflow-x: auto;
 }
 
