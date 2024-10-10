@@ -3,11 +3,9 @@
 	padding: 0;
 }
 
-html, body{
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	min-width: 985px;
+html, body {
+	/*width: 100%;*/
+	/*min-width: 985px;*/
 	overflow-x: hidden !important;
 }
 
@@ -17,92 +15,90 @@ body, button, input, select, textarea {
 }
 
 nav {
+	font-size: 16px;
 	height: 56px;
-	background-color: #2874f0;
-}
-
-.nav-left-pad {
-	width: 182px;
-}
-
-.flipkart-logo-section a {
-	height: 18px;
+	background-color: #fff;
+	padding: 12px 28px;
+	width: 100%;
 }
 
 .flipkart-logo {
-	width: 75px;
-}
-
-.flipkart-plus-logo {
-	width: 75px;
-}
-
-.flipkart-plus-icon {
-	width: 10px;
+	width: 160px;
+	margin-right: 24px;
 }
 
 .searchbar {
-	background-color: rgb(255, 255, 255);
-	border-radius: 1px;
+	font-size: 17px;
+	background-color: #f3fcff;
+	border-radius: 8px;
 	margin-left: 12px;
-	font-size: 14px;
-	height: 36px;
-	width: 304px;
+	height: 40px;
+	width: 100%;
+}
+
+.search-input {
+	width: 100%;
+	padding-top: 5px;
+}
+
+.searchbar form {
+	width: 100%;
 }
 
 .searchbar input {
 	outline: none;
 	border: none;
-	padding-left: 16px;
 	padding-right: 16px;
-	width: 262px;
+	width: 100%;
 	background-color: transparent;
 }
 
 .search-button {
 	border: none;
 	width: 42px;
+	padding: 8px 8px 8px 12px;
 	background-color: transparent;
 }
 
-.nav-login-btn {
-	font-size: 15px;
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 123px;
-	height: 31px;
-	background-color: rgb(255, 255, 255);
-	border-radius: 1px;
-}
-
-.nav-login-btn a {
-	text-decoration: none;
-	font-weight: 500;
-}
-
-.nav-becomeseller-btn {
+.nav-btn {
+	display: flex;
+	align-items: center;
+	padding: 20px 10px;
+	margin: 0 15px;
+	gap: 6px;
+	border-radius: 10px;
 	white-space: nowrap;
+	cursor: pointer;
 }
 
-.nav-more-btn svg {
-	transform: rotate(-90deg);
+.nav-btn img {
+	width: 24px;
 }
 
-.nav-cart-btn i {
-	font-size: 14px;
-}
-
-.nav-white-btn {
+.login-btn:hover {
 	color: #fff;
-	margin-left: 20px;
-	margin-right: 20px;
+	background-color: rgb(42, 85, 229);
 }
 
-.nav-white-btn a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 15px;
-	font-weight: 500;
+.login-btn:hover img {
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(220deg) brightness(103%) contrast(102%);
+	transform: rotate(180deg);
+}
+
+.login-btn:hover img:last-child {
+	transition-duration: 0.3s;
+}
+
+.login-btn img:last-child {
+	width: 12px;
+}
+
+.more-btn {
+	border: 1px solid transparent;
+}
+
+.more-btn:hover {
+	border: 1px solid #d7d7d7;
 }
 
 main {
