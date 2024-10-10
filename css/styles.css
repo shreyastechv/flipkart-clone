@@ -189,6 +189,17 @@ main {
 	width: 100%;
 }
 
+.row-2 {
+	display: flex;
+	width: 100%;
+	margin: 25px 0;
+	gap: 5px;
+}
+
+.row-2-item img {
+	width: 100%;
+}
+
 footer {
 	margin-top: 25px;
 	color: #fff;
