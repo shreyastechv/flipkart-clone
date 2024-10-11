@@ -226,6 +226,148 @@ main {
 	background-color: #fb641b;
 }
 
+.product-details {
+	padding-left: 10px;
+}
+
+.path {
+	font-size: 11px;
+	color: grey;
+}
+
+.path i {
+	font-size: 8px;
+	margin: 0 5px;
+}
+
+.product-name {
+	margin: 8px 0 3px;
+	font-size: 16px;
+}
+
+.product-hashtag {
+	color: grey;
+	font-size: 17px;
+}
+
+.rating-section {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 5px 0;
+}
+
+.star-count {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	background-color: #388e3c;
+	font-size: 12px;
+	fon-weight: 500;
+	padding: 1px 3px;
+	border-radius: 3px;
+	gap: 2px;
+}
+
+.star-count img {
+	width: 10px;
+}
+
+.rating-count {
+	font-size: 13px;
+	font-weight: 500;
+	color: grey;
+}
+
+.rating-section > img {
+	width: 77px;
+}
+
+.special-price {
+	color: #388e3c;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.product-price-section {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.sale-price {
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.orig-price {
+	font-size: 14px;
+	color: grey;
+	text-decoration: line-through;
+}
+
+.discount-percent {
+	color: #388e3c;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.offers {
+	font-size: 14px;
+}
+
+.offers > span {
+	font-size: 15px;
+	font-weight: 500;
+	padding: 10px 0;
+}
+
+.offers ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.offers li {
+	background: url('../../../assets/images/productpage/offer-tag-icon.webp') no-repeat left top;
+	background-size: 18px;
+	/*height: 34px;*/
+	padding-bottom: 10px;
+	padding-left: 25px;
+}
+
+.offers a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.exchange-choice {
+	width: 50%;
+	border: 0.1rem solid #dbdbdb;
+	padding: 16px;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.exchange-choice label {
+	margin-left: 10px;
+}
+
+.exchange-choice label:first-of-type {
+	padding-bottom: 16px;
+}
+
+.exchange-choice label span:last-of-type {
+	font-weight: 600;
+}
+
+.exchange-choice hr {
+	margin: 0 0 16px 0;
+	color: grey;
+}
+
+
 footer {
 	margin-top: 25px;
 	color: #fff;
