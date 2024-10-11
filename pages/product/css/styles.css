@@ -228,6 +228,15 @@ main {
 
 .product-details {
 	padding-left: 10px;
+	/* To add scrolling to right section while keeping left section stationary */
+	height: calc(100vh - 150px);
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* To hide scrollbar on right side */
+.product-details::-webkit-scrollbar {
+	display: none;
 }
 
 .path {
