@@ -122,6 +122,8 @@ main {
 	align-items: center;
 	justify-content: space-evenly;
 	white-space:  nowrap;
+	background-color: #fff;
+	margin-bottom: 1px;
 }
 
 .categories {
@@ -154,6 +156,7 @@ main {
 	flex-direction: column;
 	width: 100%;
 	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
 }
 
 .product-section {
@@ -522,10 +525,14 @@ main {
 	width: 23px;
 }
 
+.user-interest {
+	padding-bottom: 15px;
+}
+
 .user-interest-heading {
-	font-size: 24px;
+	font-size: 18px;
 	padding: 32px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .interests {
@@ -574,6 +581,64 @@ main {
 	padding: 5px 12px;
 	border-radius: 2px;
 	margin-top: 12px;
+}
+
+.similar-products-section {
+	border-top: 0.1rem solid #dddddd;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+}
+
+.similar-products-heading {
+	font-size: 18px;
+	padding: 32px;
+	font-weight: 500;
+}
+
+.similar-products {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.similar-product {
+	width: 15%;
+}
+
+.similar-product-image {
+	width: 100%;
+	padding: 20px;
+}
+
+.similar-product-image img {
+	width: 100%;
+}
+
+.similar-product-name {
+	font-size: 14px;
+}
+
+.similar-product-rating {
+	display: flex;
+	font-size: 12px;
+	gap: 5px;
+}
+
+.similar-product-rating > img {
+	width: 70px;
+}
+
+.similar-product-rating div:last-of-type {
+	color: grey;
+	font-weight: 500;
+}
+
+.similar-product-price .sale-price {
+	font-size: 16px;
+}
+
+.similar-product-price .discount-percent {
+	font-size: 13px;
 }
 
 footer {
