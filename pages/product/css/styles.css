@@ -590,7 +590,7 @@ main {
 
 .similar-products-heading {
 	font-size: 18px;
-	padding: 32px;
+	padding: 20px 32px 0;
 	font-weight: 500;
 }
 
@@ -598,7 +598,7 @@ main {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 0 20px 20px;
 }
 
 .similar-product {
@@ -639,6 +639,14 @@ main {
 
 .similar-product-price .discount-percent {
 	font-size: 13px;
+}
+
+.similar-product .heart-btn {
+	color: grey;
+	border: none;
+	position: relative;
+	right: 0;
+	top: 0;
 }
 
 footer {
