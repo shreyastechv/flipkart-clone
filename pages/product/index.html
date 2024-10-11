@@ -163,13 +163,13 @@
 							</div>
 							<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
 						</div>
-						<div class="special-price">
+						<div class="special-price text-green">
 							Special price
 						</div>
 						<div class="product-price-section">
 							<span class="sale-price">₹31,990</span>
 							<span class="orig-price">₹54,990</span>
-							<span class="discount-percent">41% off</span>
+							<span class="discount-percent text-green">41% off</span>
 							<i class="fa-solid fa-circle-info"></i>
 						</div>
 						<div class="offers">
@@ -221,9 +221,9 @@
 							<span>1-year warranty</span>
 							<a href="#">Know More</a>
 						</div>
-						<div class="row-1">
-							<div class="colors-section">
-								<span>Color</span>
+						<div class="product-row">
+							<div class="colors-section product-row-half">
+								<span class="heading">Color</span>
 								<div class="colors-choices">
 									<div class="colors-choice">
 										<img src="../../assets/images/productpage/color-1.webp" alt="Laptop color choice">
@@ -231,87 +231,115 @@
 									<div class="colors-choice">
 										<img src="../../assets/images/productpage/color-2.webp" alt="Laptop color choice">
 									</div>
-									<div class="colors-choice">
+									<div class="colors-choice selected">
 										<img src="../../assets/images/productpage/color-3.webp" alt="Laptop color choice">
 									</div>
 								</div>
 							</div>
-							<div class="sys-memory">
-								<span>System Memory</span>
+							<div class="sys-memory product-row-half">
+								<span class="heading">System Memory</span>
 								<div class="mem-choices">
 									<div class="mem-choice">
 										8 GB
 									</div>
-									<div class="mem-choice">
+									<div class="mem-choice selected">
 										16 GB
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="row-2">
+						<div class="product-row">
+							<span class="heading">Delivery</span>
 							<div class="pincode-section">
-								<input type="text" pattern="[0-9]{6}" placeholder="Enter Delivery Pincode">
-								<span>Delivery by17 Oct, Thursday</span>
-								<span> | </span>
-								<span>Free</span>
-								<span>₹40</span>
-								<i class="fa-regular fa-circle-question"></i>
-								<span>View Details</span>
+								<div class="pincode-input">
+									<img src="../../assets/images/productpage/location-icon.svg" alt="Location icon">
+									<input type="text" pattern="[0-9]{6}" placeholder="Enter Delivery Pincode" value="781128">
+									<a href="#">Check</a>
+								</div>
+								<div class="delivery-info">
+									<span class="delivery-date">Delivery by 17 Oct, Thursday</span>
+									<span> | </span>
+									<span class="text-green">Free</span>
+									<span class="line-through">₹40</span>
+									<i class="fa-regular fa-circle-question"></i>
+								</div>
+								<a href="#">View Details</a>
 							</div>
 						</div>
-						<div class="row-3">
-							<div class="highlights-section">
-							<span>Highlights</span>
+						<div class="product-row">
+							<div class="highlights-section product-row-half">
+							<span class="heading">Highlights</span>
 								<ul>
 									<li>Stylish & Portable Thin and Light Laptop</li>
 									<li>15.6 Inch</li>
 									<li>Light Laptop without Optical Disk Drive</li>
 								</ul>
 							</div>
-							<div class="payment-options">
+							<div class="payment-options-section product-row-half">
 								<span>Easy Payment Options</span>
-								<ul>
-									<li>EMI starting from ₹1,090/month</li>
-									<li>Net banking & Credit/ Debit/ ATM card</li>
-								</ul>
-								<span>View Details</span>
+								<div class="payment-options">
+									<ul>
+										<li>EMI starting from ₹1,090/month</li>
+										<li>Net banking & Credit/ Debit/ ATM card</li>
+									</ul>
+									<a href="#">View Details</a>
+								</div>
 							</div>
 						</div>
-						<div class="row-4">
-							<div class="seller-section">
-								<span>Seller</span>
-								<span>SVPeripherals</span>
-								<ul>
-									<li><span>7 Days Replacement Policy <i class="fa-regular fa-circle-question"></i></span></li>
-									<li><span>GST invoice available <i class="fa-regular fa-circle-question"></i></span></li>
-								</ul>
-								<span>See other sellers</span>
+						<div class="product-row">
+							<div class="seller-section product-row-half">
+								<span class="heading">Seller</span>
+								<div class="seller">
+									<a href="#">
+										<span>SVPeripherals</span>
+									</a>
+									<ul>
+										<li><span>7 Days Replacement Policy <i class="fa-regular fa-circle-question"></i></span></li>
+										<li><span>GST invoice available <i class="fa-regular fa-circle-question"></i></span></li>
+									</ul>
+									<a href="#">See other sellers</a>
+								</div>
 							</div>
 						</div>
-						<div class="row-5">
-							<img src="../../assets/images/productpage/supercoin-banner.png" alt="Supercoin banner">
+						<div class="product-row">
+							<div class="supercoin-banner product-row-half">
+								<a href="#"><img src="../../assets/images/productpage/supercoin-banner.png" alt="Supercoin banner"></a>
+							</div>
 						</div>
 						<div class="row-6">
 							<!-- Protect your product section start -->
 							<!-- Protect your product section end -->
 						</div>
-						<div class="row-7">
-							<span>Description</span>
-							<!-- The below description is causing the right section of page to overlap left section -->
-							<!--<p>The Vivobook 15, a multipurpose laptop with a 12th-generation Intel U-Series CPU, DDR4 memory, and PCIe 3.0 SSD storage, delivers remarkable performance for daily work. Its three-sided NanoEdge slim-bezel display offers breathtaking images, and its Dirac-designed audio system produces rich, immersive sound. The laptop has ASUS Antimicrobial Guard Plus for improved cleanliness, a comfortable ASUS ErgoSense keyboard, and rapid charging. In addition, it has a lay-flat hinge for effortless collaboration, a webcam privacy barrier, and several I/O ports for connection. The Vivobook 15 is dependable and fashionable, meeting US MIL-STD-810H military-grade durability requirements with its ASUS AI Noise-Canceling Technology and 3DNR for clearer video conversations.</p>-->
+						<div class="description product-row">
+							<span class="heading">Description</span>
+							<p>The Vivobook 15, a multipurpose laptop with a 12th-generation Intel U-Series CPU, DDR4 memory, and PCIe 3.0 SSD storage, delivers remarkable performance for daily work. Its three-sided NanoEdge slim-bezel display offers breathtaking images, and its Dirac-designed audio system produces rich, immersive sound. The laptop has ASUS Antimicrobial Guard Plus for improved cleanliness, a comfortable ASUS ErgoSense keyboard, and rapid charging. In addition, it has a lay-flat hinge for effortless collaboration, a webcam privacy barrier, and several I/O ports for connection. The Vivobook 15 is dependable and fashionable, meeting US MIL-STD-810H military-grade durability requirements with its ASUS AI Noise-Canceling Technology and 3DNR for clearer video conversations.</p>
 						</div>
 						<div class="product-description">
-							<div>Product Description</div>
-							<div>
-								<span>Fast-charging Battery Technology</span>
-								<p></p>
+							<div class="heading">Product Description</div>
+							<div class="desc-right desc-item">
+								<div class="desc-image">
+									<img src="../../assets/images/productpage/product-desc/desc-img-1.webp" alt="Product image">
+								</div>
+								<div class="desc-text">
+									<span>Fast-charging Battery Technology</span>
+									<p>Never worry about running out of battery during crucial tasks with this laptop's fast-charging technology. This feature charges your laptop to 60 per cent in just 49 minutes, ensuring minimal interruptions to your workflow. Whether you're catching up on the latest episode of your favourite show or rushing to meet a deadline, this laptop keeps you powered up and ready. Enjoy up to 8 hours of battery life, making it an ideal companion for both work and leisure activities.</p>
+								</div>
+							</div>
+							<div class="desc-left desc-item">
+								<div class="desc-image">
+									<img src="../../assets/images/productpage/product-desc/desc-img-2.webp" alt="Product image">
+								</div>
+								<div class="desc-text">
+									<span>Exceptional Processing Power</span>
+									<p>With this laptop, you can tackle any assignment effortlessly. Powered by the 12th Gen Intel Core i3 processor, this laptop offers remarkable processing capabilities, ensuring seamless and efficient performance. Whether you're editing documents, browsing the web, or running demanding applications, the Vivobook 15 handles it all with ease. The 8 GB DDR4 RAM allows for smooth multitasking, enabling swift programme switching. Additionally, the 512 GB PCIe 3.0 SSD storage ensures rapid system start-ups and quick app loading, enhancing your productivity.</p>
+								</div>
 							</div>
 						</div>
 						<div class="platform-msg">
 							<div class="shield-icon">
 								<img src="../../assets/images/secure.svg" alt="Shield icon">
-								<span>Safe and Secure Payments.Easy returns.100% Authentic products.</span>
 							</div>
+							<span>Safe and Secure Payments.Easy returns.100% Authentic products.</span>
 						</div>
 					</div>
 				</div>
@@ -367,8 +395,8 @@
 							</div>
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
-								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="orig-price line-through">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
@@ -384,7 +412,7 @@
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
@@ -400,7 +428,7 @@
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
@@ -416,7 +444,7 @@
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
@@ -432,7 +460,7 @@
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 					</div>
