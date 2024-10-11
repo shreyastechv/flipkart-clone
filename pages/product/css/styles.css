@@ -649,6 +649,88 @@ main {
 	top: 0;
 }
 
+/* Recently viewed items section start */
+.recent-products-section {
+	border-top: 0.1rem solid #dddddd;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+}
+
+.recent-products-heading {
+	font-size: 18px;
+	padding: 0 32px 0;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.recent-products-heading button {
+	font-size: 15px;
+	font-weight: 500;
+	color: white;
+	border: none;
+	background-color: #2874f0;
+	padding: 8px 18px;
+	border-radius: 2px;
+	margin-top: 12px;
+}
+
+.recent-products {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px 20px;
+}
+
+.recent-product {
+	width: 15%;
+}
+
+.recent-product-image {
+	width: 100%;
+	padding: 20px;
+}
+
+.recent-product-image img {
+	width: 100%;
+}
+
+.recent-product-name {
+	font-size: 14px;
+}
+
+.recent-product-rating {
+	display: flex;
+	font-size: 12px;
+	gap: 5px;
+}
+
+.recent-product-rating > img {
+	width: 70px;
+}
+
+.recent-product-rating div:last-of-type {
+	color: grey;
+	font-weight: 500;
+}
+
+.recent-product-price .sale-price {
+	font-size: 16px;
+}
+
+.recent-product-price .discount-percent {
+	font-size: 13px;
+}
+
+.recent-product .heart-btn {
+	color: grey;
+	border: none;
+	position: relative;
+	right: 0;
+	top: 0;
+}
+/* Recently viewed items section end */
+
 footer {
 	margin-top: 25px;
 	color: #fff;
