@@ -488,7 +488,7 @@ main {
 
 .product-description .heading {
 	font-size: 23px;
-	font-weight: 500;
+	font-weight: 600;
 	padding-bottom: 15px;
 }
 
@@ -532,7 +532,7 @@ main {
 .user-interest-heading {
 	font-size: 18px;
 	padding: 32px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .interests {
@@ -591,7 +591,7 @@ main {
 .similar-products-heading {
 	font-size: 18px;
 	padding: 20px 32px 0;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .similar-products {
@@ -658,7 +658,7 @@ main {
 .bought-together-products-heading {
 	font-size: 18px;
 	padding: 20px 32px 0;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .bought-together-products-categories {
@@ -742,7 +742,7 @@ main {
 .recent-products-heading {
 	font-size: 18px;
 	padding: 0 32px 0;
-	font-weight: 500;
+	font-weight: 600;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -750,7 +750,7 @@ main {
 
 .recent-products-heading button {
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 600;
 	color: white;
 	border: none;
 	background-color: #2874f0;
