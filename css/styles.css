@@ -1,0 +1,348 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	/*width: 100%;*/
+	/*min-width: 985px;*/
+	overflow-x: hidden !important;
+}
+
+body, button, input, select, textarea {
+	font-family: Inter, Helvetica, Arial, sans-serif;
+	background-color: #f1f3f6;
+}
+
+nav {
+	font-size: 16px;
+	height: 56px;
+	background-color: #fff;
+	padding: 12px 28px;
+	width: 100%;
+}
+
+.flipkart-logo {
+	width: 160px;
+	margin-right: 24px;
+}
+
+.searchbar {
+	font-size: 17px;
+	background-color: #f3fcff;
+	border-radius: 8px;
+	margin-left: 12px;
+	height: 40px;
+	width: 100%;
+}
+
+.search-input {
+	width: 100%;
+	padding-top: 5px;
+}
+
+.searchbar form {
+	width: 100%;
+}
+
+.searchbar input {
+	outline: none;
+	border: none;
+	padding-right: 16px;
+	width: 100%;
+	background-color: transparent;
+}
+
+.search-button {
+	border: none;
+	width: 42px;
+	padding: 8px 8px 8px 12px;
+	background-color: transparent;
+}
+
+.nav-btn {
+	display: flex;
+	align-items: center;
+	padding: 20px 10px;
+	margin: 0 15px;
+	gap: 6px;
+	border-radius: 10px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.nav-btn img {
+	width: 24px;
+}
+
+.login-btn:hover {
+	color: #fff;
+	background-color: rgb(42, 85, 229);
+}
+
+.login-btn:hover img {
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(220deg) brightness(103%) contrast(102%);
+	transform: rotate(180deg);
+}
+
+.login-btn:hover img:last-child {
+	transition-duration: 0.3s;
+}
+
+.login-btn img:last-child {
+	width: 12px;
+}
+
+.more-btn {
+	border: 1px solid transparent;
+}
+
+.more-btn:hover {
+	border: 1px solid #d7d7d7;
+}
+
+main {
+	margin-top: 65px;
+}
+
+.categories {
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	overflow-x: auto;
+}
+
+.category {
+	padding: 16px;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	cursor: pointer;
+}
+
+.category:first-child {
+	padding: 16px 16px 16px 24px;
+}
+
+.category:last-child {
+	padding: 16px 24px 16px 16px;
+}
+
+.under-300 {
+	display: flex;
+	background-color: #fff;
+	margin-top: 15px;
+	overflow-x: auto;
+}
+
+.under-300-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 19px;
+	font-weight: 500;
+	padding: 16px;
+	cursor: pointer;
+}
+
+.under-300-header i {
+	font-size: 22px;
+	color: rgb(42, 85, 229);
+}
+
+.under-300-items {
+	display: flex;
+	gap: 15px;
+}
+
+.under-300-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 6px 26px;
+	border: 0.1rem solid #dfdfdf;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.under-300-img img {
+	height: 186px;
+	transition: transform .2s;
+}
+
+.under-300-item:hover .under-300-img {
+	transform: scale(1.04);
+}
+
+.under-300-offer img {
+	width: 200px;
+}
+
+.row-1 {
+	display: flex;
+	width: 100%;
+	margin: 25px 0;
+}
+
+.row-1-item img {
+	width: 100%;
+}
+
+.row-2 {
+	display: flex;
+	width: 100%;
+	margin: 15px 0;
+	gap: 5px;
+}
+
+.row-2-item img {
+	width: 100%;
+}
+
+.elec-deals-content {
+	overflow-x: auto;
+}
+
+.elec-deals-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 19px;
+	font-weight: 500;
+	padding: 16px;
+	cursor: pointer;
+}
+
+.elec-deals-header i {
+	font-size: 22px;
+	color: rgb(42, 85, 229);
+}
+
+.elec-deals-items {
+	display: flex;
+	gap: 15px;
+}
+
+.elec-deals-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 6px 10px;
+	border: 0.1rem solid #dfdfdf;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.elec-deals-img img {
+	height: 130px;
+	transition: transform .2s;
+}
+
+.elec-deals-item:hover .under-300-img {
+	transform: scale(1.04);
+}
+
+.elec-deals-offer img {
+	width: 200px;
+}
+
+footer {
+	margin-top: 25px;
+	color: #fff;
+	background-color: #212121;
+	border-top: 1px solid #172337;
+}
+
+.footer-top {
+	margin-left: 65px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-top div:nth-of-type(5) {
+	padding-left: 25px;
+	border-left: 0.1rem solid #454d5e;;
+}
+
+.footer-top-item {
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-top-item a {
+	text-decoration: none;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+.footer-top-item a:hover {
+	text-decoration: underline;
+}
+
+.footer-top-item p {
+	margin-bottom: 0;
+}
+
+.footer-top-item .footer-item-title:nth-of-type(2) {
+	margin-top: 13px;
+}
+
+.footer-item-title {
+	color: #878787;
+	margin-bottom: 8px;
+}
+
+.footer-social-media-icons {
+	display: flex;
+	gap: 16px;
+}
+
+.tel-links a {
+	color: rgb(40, 116, 240);
+}
+
+.tel-links a:hover {
+	text-decoration: none;
+}
+
+.footer-bottom {
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-top: 0.1rem solid #454d5e;
+	height: 73px;
+	white-space: nowrap;
+}
+
+.footer-bottom-item {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.footer-bottom-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-bottom-item img:not(:last-child) {
+	width: 11px;
+}
+
+@media (max-width: 1192px) {
+	.cart-btn span, .seller-btn span {
+		display: none;
+	}
+
+	.nav-btn {
+		padding: 20px 0;
+		margin: 0 15px;
+	}
+}
