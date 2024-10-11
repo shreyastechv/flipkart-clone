@@ -649,6 +649,90 @@ main {
 	top: 0;
 }
 
+/* Bought together section start */
+.bought-together-products-section {
+	border-top: 0.1rem solid #dddddd;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+}
+
+.bought-together-products-heading {
+	font-size: 18px;
+	padding: 20px 32px 0;
+	font-weight: 500;
+}
+
+.bought-together-products-categories {
+	display: flex;
+	font-size: 14px;
+	gap: 25px;
+	padding-top: 16px;
+	padding-left: 32px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.bought-together-products-category.selected {
+	color: #2874f0;
+	font-weight: 500;
+	padding-bottom: 4px;
+	border-bottom: 3px solid #2874f0;
+}
+
+.bought-together-products {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px 20px;
+}
+
+.bought-together-product {
+	width: 15%;
+}
+
+.bought-together-product-image {
+	width: 100%;
+	padding: 20px;
+}
+
+.bought-together-product-image img {
+	width: 100%;
+}
+
+.bought-together-product-name {
+	font-size: 14px;
+}
+
+.bought-together-product-rating {
+	display: flex;
+	font-size: 12px;
+	gap: 5px;
+}
+
+.bought-together-product-rating > img {
+	width: 70px;
+}
+
+.bought-together-product-rating div:last-of-type {
+	color: grey;
+	font-weight: 500;
+}
+
+.bought-together-product-price .sale-price {
+	font-size: 16px;
+}
+
+.bought-together-product-price .discount-percent {
+	font-size: 13px;
+}
+
+.bought-together-product .heart-btn {
+	color: grey;
+	border: none;
+	position: relative;
+	right: 0;
+	top: 0;
+}
+/* Bought together section end */
+
 /* Recently viewed items section start */
 .recent-products-section {
 	border-top: 0.1rem solid #dddddd;
