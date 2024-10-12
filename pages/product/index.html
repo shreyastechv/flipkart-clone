@@ -148,7 +148,7 @@
 						<div class="product-name">
 							ASUS Vivobook 15, with Backlit Keyboard, Intel Core i3 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) X1504ZA-NJ321WS Thin and Light Laptop  (15.6 Inch, Quiet Blue, With MS Office)
 						</div>
-						<div class="hashtag">
+						<div class="product-hashtag">
 							#JustHere
 						</div>
 						<div class="rating-section">
@@ -163,13 +163,13 @@
 							</div>
 							<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
 						</div>
-						<div class="special-price">
+						<div class="special-price text-green">
 							Special price
 						</div>
-						<div class="product-price">
-							<span>₹31,990</span>
-							<span>₹54,990</span>
-							<span>41% off</span>
+						<div class="product-price-section">
+							<span class="sale-price">₹31,990</span>
+							<span class="orig-price">₹54,990</span>
+							<span class="discount-percent text-green">41% off</span>
 							<i class="fa-solid fa-circle-info"></i>
 						</div>
 						<div class="offers">
@@ -177,19 +177,41 @@
 							<!-- Replace dots with green tag icon -->
 							<ul>
 								<li>
-									<span>Bank Offer</span>
+									<span><b>Bank Offer</b></span>
 									<span>5% Unlimited Cashback on Flipkart Axis Bank Credit Card</span>
-									<span>T&C</span>
+									<a href="#">T&C</a>
+								</li>
+								<li>
+									<span><b>Bank Offer</b></span>
+									<span>5% Unlimited Cashback on Flipkart Axis Bank Credit Card</span>
+									<a href="#">T&C</a>
+								</li>
+								<li>
+									<span><b>Bank Offer</b></span>
+									<span>5% Unlimited Cashback on Flipkart Axis Bank Credit Card</span>
+									<a href="#">T&C</a>
+								</li>
+								<li>
+									<span><b>Bank Offer</b></span>
+									<span>5% Unlimited Cashback on Flipkart Axis Bank Credit Card</span>
+									<a href="#">T&C</a>
 								</li>
 							</ul>
-							<span>View 30 more offers</span>
+							<a href="#">View 30 more offers</a>
 						</div>
 						<div class="exchange-choice">
 							<form>
-								<input type="radio" id="without-exchange" name="buy-without-exchange" value="false">
-								<label for="without-exchange">Buy without Exchange</label><br>
-								<input type="radio" id="with-exchange" name="buy-with-exchange" value="true">
-								<label for="with-exchange">Buy with Exchange</label><br>  
+								<input type="radio" id="without-exchange" name="exchange" value="false" checked>
+								<label for="without-exchange">
+									<span>Buy without Exchange</span>
+									<span>₹30,990</span>
+								</label><br>
+								<hr>
+								<input type="radio" id="with-exchange" name="exchange" value="true">
+								<label for="with-exchange">
+									<span>Buy with Exchange</span>
+									<span>up to ₹18,200 off</span>
+								</label><br>  
 							</form>
 						</div>
 						<div class="warranty-section">
@@ -199,9 +221,9 @@
 							<span>1-year warranty</span>
 							<a href="#">Know More</a>
 						</div>
-						<div class="row-1">
-							<div class="colors-section">
-								<span>Color</span>
+						<div class="product-row">
+							<div class="colors-section product-row-half">
+								<span class="heading">Color</span>
 								<div class="colors-choices">
 									<div class="colors-choice">
 										<img src="../../assets/images/productpage/color-1.webp" alt="Laptop color choice">
@@ -209,87 +231,115 @@
 									<div class="colors-choice">
 										<img src="../../assets/images/productpage/color-2.webp" alt="Laptop color choice">
 									</div>
-									<div class="colors-choice">
+									<div class="colors-choice selected">
 										<img src="../../assets/images/productpage/color-3.webp" alt="Laptop color choice">
 									</div>
 								</div>
 							</div>
-							<div class="sys-memory">
-								<span>System Memory</span>
+							<div class="sys-memory product-row-half">
+								<span class="heading">System Memory</span>
 								<div class="mem-choices">
 									<div class="mem-choice">
 										8 GB
 									</div>
-									<div class="mem-choice">
+									<div class="mem-choice selected">
 										16 GB
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="row-2">
+						<div class="product-row">
+							<span class="heading">Delivery</span>
 							<div class="pincode-section">
-								<input type="text" pattern="[0-9]{6}" placeholder="Enter Delivery Pincode">
-								<span>Delivery by17 Oct, Thursday</span>
-								<span> | </span>
-								<span>Free</span>
-								<span>₹40</span>
-								<i class="fa-regular fa-circle-question"></i>
-								<span>View Details</span>
+								<div class="pincode-input">
+									<img src="../../assets/images/productpage/location-icon.svg" alt="Location icon">
+									<input type="text" pattern="[0-9]{6}" placeholder="Enter Delivery Pincode" value="781128">
+									<a href="#">Check</a>
+								</div>
+								<div class="delivery-info">
+									<span class="delivery-date">Delivery by 17 Oct, Thursday</span>
+									<span> | </span>
+									<span class="text-green">Free</span>
+									<span class="line-through">₹40</span>
+									<i class="fa-regular fa-circle-question"></i>
+								</div>
+								<a href="#">View Details</a>
 							</div>
 						</div>
-						<div class="row-3">
-							<div class="highlights-section">
-							<span>Highlights</span>
+						<div class="product-row">
+							<div class="highlights-section product-row-half">
+							<span class="heading">Highlights</span>
 								<ul>
 									<li>Stylish & Portable Thin and Light Laptop</li>
 									<li>15.6 Inch</li>
 									<li>Light Laptop without Optical Disk Drive</li>
 								</ul>
 							</div>
-							<div class="payment-options">
+							<div class="payment-options-section product-row-half">
 								<span>Easy Payment Options</span>
-								<ul>
-									<li>EMI starting from ₹1,090/month</li>
-									<li>Net banking & Credit/ Debit/ ATM card</li>
-								</ul>
-								<span>View Details</span>
+								<div class="payment-options">
+									<ul>
+										<li>EMI starting from ₹1,090/month</li>
+										<li>Net banking & Credit/ Debit/ ATM card</li>
+									</ul>
+									<a href="#">View Details</a>
+								</div>
 							</div>
 						</div>
-						<div class="row-4">
-							<div class="seller-section">
-								<span>Seller</span>
-								<span>SVPeripherals</span>
-								<ul>
-									<li><span>7 Days Replacement Policy <i class="fa-regular fa-circle-question"></i></span></li>
-									<li><span>GST invoice available <i class="fa-regular fa-circle-question"></i></span></li>
-								</ul>
-								<span>See other sellers</span>
+						<div class="product-row">
+							<div class="seller-section product-row-half">
+								<span class="heading">Seller</span>
+								<div class="seller">
+									<a href="#">
+										<span>SVPeripherals</span>
+									</a>
+									<ul>
+										<li><span>7 Days Replacement Policy <i class="fa-regular fa-circle-question"></i></span></li>
+										<li><span>GST invoice available <i class="fa-regular fa-circle-question"></i></span></li>
+									</ul>
+									<a href="#">See other sellers</a>
+								</div>
 							</div>
 						</div>
-						<div class="row-5">
-							<img src="../../assets/images/productpage/supercoin-banner.png" alt="Supercoin banner">
+						<div class="product-row">
+							<div class="supercoin-banner product-row-half">
+								<a href="#"><img src="../../assets/images/productpage/supercoin-banner.png" alt="Supercoin banner"></a>
+							</div>
 						</div>
 						<div class="row-6">
 							<!-- Protect your product section start -->
 							<!-- Protect your product section end -->
 						</div>
-						<div class="row-7">
-							<span>Description</span>
-							<!-- The below description is causing the right section of page to overlap left section -->
-							<!--<p>The Vivobook 15, a multipurpose laptop with a 12th-generation Intel U-Series CPU, DDR4 memory, and PCIe 3.0 SSD storage, delivers remarkable performance for daily work. Its three-sided NanoEdge slim-bezel display offers breathtaking images, and its Dirac-designed audio system produces rich, immersive sound. The laptop has ASUS Antimicrobial Guard Plus for improved cleanliness, a comfortable ASUS ErgoSense keyboard, and rapid charging. In addition, it has a lay-flat hinge for effortless collaboration, a webcam privacy barrier, and several I/O ports for connection. The Vivobook 15 is dependable and fashionable, meeting US MIL-STD-810H military-grade durability requirements with its ASUS AI Noise-Canceling Technology and 3DNR for clearer video conversations.</p>-->
+						<div class="description product-row">
+							<span class="heading">Description</span>
+							<p>The Vivobook 15, a multipurpose laptop with a 12th-generation Intel U-Series CPU, DDR4 memory, and PCIe 3.0 SSD storage, delivers remarkable performance for daily work. Its three-sided NanoEdge slim-bezel display offers breathtaking images, and its Dirac-designed audio system produces rich, immersive sound. The laptop has ASUS Antimicrobial Guard Plus for improved cleanliness, a comfortable ASUS ErgoSense keyboard, and rapid charging. In addition, it has a lay-flat hinge for effortless collaboration, a webcam privacy barrier, and several I/O ports for connection. The Vivobook 15 is dependable and fashionable, meeting US MIL-STD-810H military-grade durability requirements with its ASUS AI Noise-Canceling Technology and 3DNR for clearer video conversations.</p>
 						</div>
 						<div class="product-description">
-							<div>Product Description</div>
-							<div>
-								<span>Fast-charging Battery Technology</span>
-								<p></p>
+							<div class="heading">Product Description</div>
+							<div class="desc-right desc-item">
+								<div class="desc-image">
+									<img src="../../assets/images/productpage/product-desc/desc-img-1.webp" alt="Product image">
+								</div>
+								<div class="desc-text">
+									<span>Fast-charging Battery Technology</span>
+									<p>Never worry about running out of battery during crucial tasks with this laptop's fast-charging technology. This feature charges your laptop to 60 per cent in just 49 minutes, ensuring minimal interruptions to your workflow. Whether you're catching up on the latest episode of your favourite show or rushing to meet a deadline, this laptop keeps you powered up and ready. Enjoy up to 8 hours of battery life, making it an ideal companion for both work and leisure activities.</p>
+								</div>
+							</div>
+							<div class="desc-left desc-item">
+								<div class="desc-image">
+									<img src="../../assets/images/productpage/product-desc/desc-img-2.webp" alt="Product image">
+								</div>
+								<div class="desc-text">
+									<span>Exceptional Processing Power</span>
+									<p>With this laptop, you can tackle any assignment effortlessly. Powered by the 12th Gen Intel Core i3 processor, this laptop offers remarkable processing capabilities, ensuring seamless and efficient performance. Whether you're editing documents, browsing the web, or running demanding applications, the Vivobook 15 handles it all with ease. The 8 GB DDR4 RAM allows for smooth multitasking, enabling swift programme switching. Additionally, the 512 GB PCIe 3.0 SSD storage ensures rapid system start-ups and quick app loading, enhancing your productivity.</p>
+								</div>
 							</div>
 						</div>
 						<div class="platform-msg">
 							<div class="shield-icon">
 								<img src="../../assets/images/secure.svg" alt="Shield icon">
-								<span>Safe and Secure Payments.Easy returns.100% Authentic products.</span>
 							</div>
+							<span>Safe and Secure Payments.Easy returns.100% Authentic products.</span>
 						</div>
 					</div>
 				</div>
@@ -303,7 +353,7 @@
 							<div class="interest-details">
 								<div>Keyboards</div>
 								<div>Min. 50% Off</div>
-								<div>Shop Now</div>
+								<button>Shop Now</button>
 							</div>
 						</div>
 						<div class="interest">
@@ -311,9 +361,9 @@
 								<img src="../../assets/images/productpage/user-interests/interest-2.webp" alt="User interested product image">
 							</div>
 							<div class="interest-details">
-								<div>Keyboards</div>
+								<div>Mouse</div>
 								<div>Min. 50% Off</div>
-								<div>Shop Now</div>
+								<button>Shop Now</button>
 							</div>
 						</div>
 						<div class="interest">
@@ -321,9 +371,9 @@
 								<img src="../../assets/images/productpage/user-interests/interest-3.webp" alt="User interested product image">
 							</div>
 							<div class="interest-details">
-								<div>Keyboards</div>
+								<div>Physical</div>
 								<div>Min. 50% Off</div>
-								<div>Shop Now</div>
+								<button>Shop Now</button>
 							</div>
 						</div>
 					</div>
@@ -335,92 +385,432 @@
 					<div class="similar-products">
 						<div class="similar-product">
 							<div class="similar-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
 								<img src="../../assets/images/productpage/similar-products/similar-product-1.webp" alt="Similar product image">
 							</div>
-							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) E1404FA-NK321WS Thin and Light Laptop</div>
+							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
 							<div class="similar-product-rating">
-								<div>4.2</div>
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
 								<div>(4,811)</div>
 								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
 							</div>
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
-								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="orig-price line-through">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
 							<div class="similar-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
 								<img src="../../assets/images/productpage/similar-products/similar-product-2.webp" alt="Similar product image">
 							</div>
-							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) E1404FA-NK321WS Thin and Light Laptop</div>
+							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
 							<div class="similar-product-rating">
-								<div>4.2</div>
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
 								<div>(4,811)</div>
 								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
 							</div>
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
 							<div class="similar-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
 								<img src="../../assets/images/productpage/similar-products/similar-product-3.webp" alt="Similar product image">
 							</div>
-							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) E1404FA-NK321WS Thin and Light Laptop</div>
+							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
 							<div class="similar-product-rating">
-								<div>4.2</div>
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
 								<div>(4,811)</div>
 								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
 							</div>
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
 							<div class="similar-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
 								<img src="../../assets/images/productpage/similar-products/similar-product-4.webp" alt="Similar product image">
 							</div>
-							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) E1404FA-NK321WS Thin and Light Laptop</div>
+							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
 							<div class="similar-product-rating">
-								<div>4.2</div>
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
 								<div>(4,811)</div>
 								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
 							</div>
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 						<div class="similar-product">
 							<div class="similar-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
 								<img src="../../assets/images/productpage/similar-products/similar-product-5.webp" alt="Similar product image">
 							</div>
-							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SSD/Windows 11 Home) E1404FA-NK321WS Thin and Light Laptop</div>
+							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
 							<div class="similar-product-rating">
-								<div>4.2</div>
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
 								<div>(4,811)</div>
 								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
 							</div>
 							<div class="similar-product-price">
 								<span class="sale-price">₹30,990</span>
 								<span class="orig-price">₹50,990</span>
-								<span class="discount-percent">39% off</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="similar-product">
+							<div class="similar-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/similar-products/similar-product-6.webp" alt="Similar product image">
+							</div>
+							<div class="similar-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="similar-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="similar-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<!-- Bought together section start -->
+				<div class="bought-together-products-section">
+					<div class="bought-together-products-heading">
+						<span>Bought together</span>
+					</div>
+					<div class="bought-together-products-categories">
+						<div class="bought-together-products-category selected">All Categories</div>
+						<div class="bought-together-products-category">Laptop Bags</div>
+						<div class="bought-together-products-category">External SSDs</div>
+						<div class="bought-together-products-category">Keyboards</div>
+						<div class="bought-together-products-category">Mouse</div>
+					</div>
+					<div class="bought-together-products">
+						<div class="bought-together-product">
+							<div class="bought-together-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/bought-together-products/bought-together-product-1.webp" alt="bought-together product image">
+							</div>
+							<div class="bought-together-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="bought-together-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="bought-together-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price line-through">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="bought-together-product">
+							<div class="bought-together-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/bought-together-products/bought-together-product-2.webp" alt="bought-together product image">
+							</div>
+							<div class="bought-together-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="bought-together-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="bought-together-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="bought-together-product">
+							<div class="bought-together-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/bought-together-products/bought-together-product-3.webp" alt="bought-together product image">
+							</div>
+							<div class="bought-together-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="bought-together-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="bought-together-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="bought-together-product">
+							<div class="bought-together-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/bought-together-products/bought-together-product-4.webp" alt="bought-together product image">
+							</div>
+							<div class="bought-together-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="bought-together-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="bought-together-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="bought-together-product">
+							<div class="bought-together-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/bought-together-products/bought-together-product-5.webp" alt="bought-together product image">
+							</div>
+							<div class="bought-together-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="bought-together-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="bought-together-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="bought-together-product">
+							<div class="bought-together-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/bought-together-products/bought-together-product-6.webp" alt="bought-together product image">
+							</div>
+							<div class="bought-together-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="bought-together-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="bought-together-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Bought together section end -->
+
+				<!-- Recently viewed items section start -->
+				<div class="recent-products-section">
+					<div class="recent-products-heading">
+						<span>Recently Viewed</span>
+						<button>View All</button>
+					</div>
+					<div class="recent-products">
+						<div class="recent-product">
+							<div class="recent-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/recent-products/recent-product-1.webp" alt="recent product image">
+							</div>
+							<div class="recent-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="recent-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="recent-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price line-through">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="recent-product">
+							<div class="recent-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/recent-products/recent-product-2.webp" alt="recent product image">
+							</div>
+							<div class="recent-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="recent-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="recent-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="recent-product">
+							<div class="recent-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/recent-products/recent-product-3.webp" alt="recent product image">
+							</div>
+							<div class="recent-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="recent-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="recent-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="recent-product">
+							<div class="recent-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/recent-products/recent-product-4.webp" alt="recent product image">
+							</div>
+							<div class="recent-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="recent-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="recent-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="recent-product">
+							<div class="recent-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/recent-products/recent-product-5.webp" alt="recent product image">
+							</div>
+							<div class="recent-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="recent-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="recent-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+						<div class="recent-product">
+							<div class="recent-product-image">
+								<button class="heart-btn"><i class="fa-solid fa-heart"></i></button>
+								<img src="../../assets/images/productpage/recent-products/recent-product-6.webp" alt="recent product image">
+							</div>
+							<div class="recent-product-name">ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS...</div>
+							<div class="recent-product-rating">
+								<div class="star-count">
+									4.2
+									<img src="../../assets/images/rating-star.svg" alt="Star">
+								</div>
+								<div>(4,811)</div>
+								<img src="../../assets/images/flipkart-assured-logo.png" alt="Flipkart assured logo">
+							</div>
+							<div class="recent-product-price">
+								<span class="sale-price">₹30,990</span>
+								<span class="orig-price">₹50,990</span>
+								<span class="discount-percent text-green">39% off</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Recently viewed items section end -->
+
 			</div>
 
 			<footer>
 				<div class="footer-top">
-					<div>Top Stories: <a href="#">Brand Directory</a></div>
-					<div>MOST SEARCHED IN Computers & Accessories:DELL ALL IN ONE PCDESKTOPDELL MONITOR PRICED LINK MODEM PRICECOLOUR PRINTER PRICEEXTERNAL HARD DISKWD HARD DISK 1TBPENDRIVE 8GBDELL INSPIRON 1525DELL INSPIRON N4010DELL S2240LLIBERTY ONLINECOMPAQ LAPTOPHP 1515 PRINTERHUAWEI WIFI DONGLEHUAWEI WIFI DONGLEJBL BLUETOOTH SPEAKERMANGAL TO KRUTIONLINE WEB CAMERADELL COMPUTERSHP LAPTOP MODELSLENOVO COMPUTERSOPTICAL MOUSETALLY ERPWD HARD DISKWD MY PASSPORT ULTRA 1TB</div>
+					<div class="top-stories">Top Stories: <a href="#">Brand Directory</a></div>
+					<div class="footer-top-links">
+						<span>MOST SEARCHED IN Computers & Accessories:</span>
+						<a href="#">MAC MINI</a>
+						<a href="#">DESKTOP MONITOR</a>
+						<a href="#">INTEL MOTHERBOARD</a>
+						<a href="#">PROCESSORS</a>
+						<a href="#">DELL CPU PRICE</a>
+						<a href="#">COMPUTER SCANNER</a>
+						<a href="#">TENDA ROUTER</a>
+						<a href="#">USB WIFI ADAPTER</a>
+						<a href="#">SEAGATE HARD DISK</a>
+						<a href="#">BEST PEN DRIVE</a>
+						<a href="#">DELL INSPIRON 15 7000</a>
+						<a href="#">DELL WIRELESS MOUSE</a>
+						<a href="#">EPSON L210</a>
+						<a href="#">BLUETOOTH RECEIVER</a>
+						<a href="#">INTEL I3 PROCESSOR PRICE</a>
+						<a href="#">LAPTOP ADAPTER</a>
+						<a href="#">LAPTOP MOUSE</a>
+						<a href="#">UPS BATTERY PRICE</a>
+						<a href="#">ASUS LAPTOPS</a>
+						<a href="#">MICROMAX CANVAS LAPTOP</a>
+						<a href="#">SAMSUNG NOTEBOOK</a>
+						<a href="#">LENOVO G50-70 NOTEBOOK</a>
+						<a href="#">LENOVO G50-70</a>
+						<a href="#">MCAFEE INTERNET SECURITY</a>
+						<a href="#">SD MEMORY CARD</a>
+						<a href="#">QUICK HEAL</a>
+						<a href="#">TENDA ROUTER</a>
+						<a href="#">WD HARD DISK</a>
+						<a href="#">LAPTOP STAND</a>
+					</div>
 				</div>
 
 				<div class="footer-middle">
