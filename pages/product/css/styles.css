@@ -1279,6 +1279,7 @@ footer {
 }
 
 .line-through {
+	color: rgb(113, 116, 120);
 	text-decoration: line-through;
 }
 
@@ -1404,7 +1405,7 @@ footer {
 	}
 
 	.rating-count {
-		color: rgb(13 110 253);
+		color: blue;
 	}
 
 	.flipkart-assured-logo {
@@ -1424,6 +1425,48 @@ footer {
 
 	.free-delivery {
 		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.deliverto-section {
+		margin-top: 10px;
+	}
+
+	.pincode {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 16px;
+		font-size: 14px;
+	}
+
+	.pincode button {
+		color: rgb(42, 85, 229);
+		font-size: 13px;
+		padding: 5px 9px;
+		background-color: transparent;
+		border: 1px solid #dfdfdf;
+		border-radius: 4px;
+	}
+
+	.delivery-details {
+		padding: 16px;
+		font-size: 14px;
+		display: flex;
+		justify-content: space-between;
+		border-top: 1px solid var(--border-color);
+	}
+
+	.truck-icon {
+		font-size: 16px;
+	}
+
+	.deliveryby {
+		font-weight: 600;
+	}
+
+	.chevron-right-icon {
+		font-size: 10px;
 	}
 
 	.product-buttons {
@@ -1443,5 +1486,9 @@ footer {
 
 	.buy-now-btn {
 		background-color: rgb(255, 194, 0);
+	}
+
+	.text-green {
+		color: rgb(0, 140, 0);
 	}
 }
