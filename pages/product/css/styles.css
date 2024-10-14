@@ -725,6 +725,74 @@ main {
 	font-size: 12px;
 }
 
+.qna {
+	border: 1px solid var(--border-color);
+	margin-top: 20px;
+}
+
+.qna-heading {
+	font-size: 23px;
+	font-weight: 500;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid var(--border-color);
+}
+
+.qna-heading-text {
+	padding: 15px;
+}
+
+.qna-search-icon {
+	padding: 15px;
+	border-left: 1px solid var(--border-color);
+}
+
+.qna-body {
+	font-size: 12px;
+}
+
+.qna-body > div:first-of-type {
+	font-weight: 500;
+}
+
+.qna-item {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	border-bottom: 1px solid var(--border-color);
+	gap: 10px;
+}
+
+.qna-username {
+	color: grey;
+}
+
+.qna-body-bottom {
+	display: flex;
+	justify-content: space-between;
+	color: grey;
+	font-size: 12px;
+}
+
+.qna-check {
+	display: flex;
+	gap: 20px;
+}
+
+.qna-bottom {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 15px;
+	color: grey;
+}
+
+.qna-bottom i {
+	font-size: 12px;
+}
+
 .platform-msg {
 	display: flex;
 	padding: 10px;
@@ -732,6 +800,7 @@ main {
 	justify-content: center;
 	font-size: 14px;
 	font-weight: 500;
+	gap: 10px;
 }
 
 .shield-icon img {
