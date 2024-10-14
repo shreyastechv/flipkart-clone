@@ -1339,6 +1339,7 @@ footer {
 
 	.content-mobile {
 		background-color: #fff;
+		margin-bottom: 47px;
 	}
 
 	.popularity-image-section img {
@@ -1347,5 +1348,24 @@ footer {
 
 	.popularity-text {
 		font-size: 13px;
+	}
+
+	.product-buttons {
+		background-color: #fff;
+	}
+
+	.fixed-btn {
+		width: 50%;
+		padding: 13px;
+		border: none;
+		font-size: 14px;
+	}
+
+	.add-to-cart-btn {
+		background-color: #fff;
+	}
+
+	.buy-now-btn {
+		background-color: rgb(255, 194, 0);
 	}
 }
