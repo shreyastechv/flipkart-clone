@@ -24,8 +24,6 @@ a {
 nav {
 	height: 56px;
 	background-color: #2874f0;
-	position: fixed;
-	top: 0;
 }
 
 .nav-desktop {
@@ -1295,16 +1293,9 @@ footer {
 		min-width: 0;
 	}
 
-	main {
-		padding-top: 0;
-	}
-
 	nav {
 		padding: 10px;
 		background-color: #fff;
-		height: 56px;
-		position: static;
-		top: auto;
 	}
 
 	.nav-desktop {
