@@ -1832,6 +1832,67 @@ footer {
 		color: black;
 	}
 
+	.seller-section {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+
+	.seller-info {
+		display: flex;
+		justify-content: space-between;
+		padding: 15px;
+	}
+
+	.seller-basic-info {
+		display: flex;
+	}
+
+	.seller-name {
+		font-weight: 600;
+	}
+
+	.seller-rating span:first-of-type {
+		font-weight: 600;
+	}
+
+	.seller-rating span:last-of-type {
+		color: grey;
+	}
+
+	.seller-quality {
+		display: flex;
+		padding: 10px;
+		margin: 0 15px;
+		border: 1px solid var(--border-color);
+		border-radius: 8px;
+		justify-content: space-evenly;
+	}
+
+	.seller-quality > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.seller-quality > div > div:first-of-type {
+		font-weight: 600;
+	}
+
+	.seller-quality > div > div:last-of-type {
+		color: grey;
+	}
+
+	.seller-icon img {
+		width: 40px;
+		margin-right: 10px;
+	}
+
+	.seller-bottom {
+		display: flex;
+		justify-content: space-between;
+		padding: 15px;
+	}
+
 	.product-buttons {
 		background-color: #fff;
 	}
