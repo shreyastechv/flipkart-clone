@@ -1574,7 +1574,7 @@ footer {
 
 	.similar-products-content {
 		display: flex;
-		overflow-x: scroll;
+		overflow-x: auto;
 		width: 100%;
 		padding: 20px 0;
 		gap: 10px;
@@ -1704,6 +1704,75 @@ footer {
 
 	.highlights-text div:not(:nth-of-type(2)) {
 		color: grey;
+	}
+
+	.ratings-reviews {
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.ratings-star > span {
+		font-size: 12px;
+	}
+
+	.rating-graphics img {
+		width: 100%;
+	}
+
+	.review-images {
+		overflow-x: auto;
+	}
+
+	.review-image {
+		width: 200px;
+		height: 80px;
+		cursor: pointer;
+	}
+
+	.review-heading {
+		font-size: 14px;
+	}
+
+	.star-count {
+		background-color: transparent;
+	}
+
+	.star-count img {
+		width: 100px;
+	}
+
+	.review {
+		padding-top: 10px;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.review-body {
+		font-size: 14px;
+		color: rgb(17, 17, 18);
+	}
+
+	.review-bottom {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.review-author {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.review-author > span {
+		font-size: 14px;
+	}
+
+	.review-all {
+		font-size: 15px;
+		padding: 0;
+	}
+
+	.review-all div {
+		font-size: 13px;
+		color: black;
 	}
 
 	.product-buttons {
