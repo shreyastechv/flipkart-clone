@@ -1556,6 +1556,47 @@ footer {
 		font-size: 12px;
 	}
 
+	.similar-products {
+		display: flex;
+		flex-direction: column;
+		margin-top: 10px;
+		padding-top: 15px;
+	}
+
+	.similar-products-heading {
+		width: 100%;
+		display: flex;
+		padding: 0;
+		justify-content: space-between;
+		font-size: 17px;
+		font-weight: 500;
+	}
+
+	.similar-products-content {
+		display: flex;
+		overflow-x: scroll;
+		width: 100%;
+		padding: 20px 0;
+		gap: 10px;
+	}
+
+	.similar-product {
+		width: 300px;
+		border: 1px solid var(--border-color);
+		padding: 15px 0;
+	}
+
+	.similar-product-image-section img {
+		width: 140px;
+	}
+
+	.similar-product-details-section {
+		display: flex;
+		flex-direction: column;
+		font-size: 12px;
+		padding: 20px 10px 0;
+	}
+
 	.product-buttons {
 		background-color: #fff;
 	}
