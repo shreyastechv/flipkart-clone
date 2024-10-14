@@ -1619,11 +1619,36 @@ footer {
 
 	.warranty-section {
 		font-size: 13px;
+		margin-top: 10px;
 	}
 
 	.warranty-section img {
 		width: 60px;
 		margin: 10px 30px;
+	}
+
+	.supercoin-section {
+		color: rgb(17, 17, 18);
+		margin-top: 10px;
+	}
+
+	.supercoin-top {
+		padding: 5px 20px;
+		font-size: 14px;
+	}
+
+	.supercoin-top img:first-of-type {
+		width: 25px;
+	}
+
+	.supercoin-top img:last-of-type {
+		width: 15px;
+	}
+
+	.supercoin-bottom {
+		font-size: 12px;
+		padding: 5px 20px;
+		border-top: 1px solid var(--border-color);
 	}
 
 	.product-buttons {
