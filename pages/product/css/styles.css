@@ -1342,7 +1342,7 @@ footer {
 		margin-bottom: 47px;
 	}
 
-	.product-top {
+	.content-mobile > div {
 		background-color: #fff;
 	}
 
@@ -1354,13 +1354,8 @@ footer {
 		font-size: 13px;
 	}
 
-	.product-buttons {
-		background-color: #fff;
-	}
-
 	.select-variant {
 		margin: 10px 0;
-		background-color: #fff;
 	}
 
 	.select-variant > div {
@@ -1377,6 +1372,62 @@ footer {
 
 	.select-variant span {
 		color: grey;
+	}
+
+	.product-name-section {
+		padding: 0 16px 24px;
+	}
+
+	.view-more-from-brand {
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.brand-name {
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.product-name {
+		font-size: 14px;
+	}
+
+	.hashtag {
+		color: #544f4f;
+		font-weight: 600;
+	}
+
+	.rating-line {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.rating-count {
+		color: rgb(13 110 253);
+	}
+
+	.flipkart-assured-logo {
+		width: 60px;
+	}
+
+	.price-details {
+		display: flex;
+		gap: 8px;
+		align-items: center;
+	}
+
+	.price-details span {
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	.free-delivery {
+		font-size: 12px;
+	}
+
+	.product-buttons {
+		background-color: #fff;
 	}
 
 	.fixed-btn {
