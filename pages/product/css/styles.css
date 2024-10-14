@@ -30,7 +30,7 @@ nav {
 	display: flex;
 }
 
-.nav-mobile {
+.nav-mobile, .content-mobile {
 	display: none;
 }
 
@@ -1337,6 +1337,7 @@ footer {
 	}
 
 	.content-mobile {
+		display: flex;
 		background-color: #fff;
 		margin-bottom: 47px;
 	}
