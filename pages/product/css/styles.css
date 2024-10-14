@@ -125,7 +125,6 @@ main {
 	font-size: 14px;
 	font-weight: 500;
 	height: 40px;
-	max-width: ;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
 	display: flex;
 	align-items: center;
@@ -319,7 +318,7 @@ main {
 	color: #fff;
 	background-color: #388e3c;
 	font-size: 12px;
-	fon-weight: 500;
+	font-weight: 500;
 	padding: 1px 3px;
 	border-radius: 3px;
 	gap: 2px;
