@@ -30,7 +30,7 @@ nav {
 	display: flex;
 }
 
-.nav-mobile, .content-mobile {
+.nav-mobile div, .content-mobile {
 	display: none;
 }
 
@@ -1302,7 +1302,7 @@ footer {
 		display: none;
 	}
 
-	.nav-mobile {
+	.nav-mobile div {
 		display: flex;
 		align-items: center;
 	}
