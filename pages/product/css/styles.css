@@ -1285,14 +1285,17 @@ footer {
 
 @media (max-width: 528px) {
 
-	html, body{
+	body {
+		font-family: Roboto, Helvetica, Arial, sans-serif;
+	}
+
+	html, body, nav {
 		min-width: 0;
 	}
 
 	nav {
-		
-		background-color: #fff;
 		padding: 10px;
+		background-color: #fff;
 	}
 
 	.nav-desktop {
@@ -1327,9 +1330,22 @@ footer {
 	.nav-mobile-right div {
 		padding: 10px;
 		font-size: 14px;
+		font-weight: 500;
 	}
 
 	.category-selector, .content, footer {
 		display: none;
+	}
+
+	.content-mobile {
+		background-color: #fff;
+	}
+
+	.popularity-image-section img {
+		width: 28px;
+	}
+
+	.popularity-text {
+		font-size: 13px;
 	}
 }
