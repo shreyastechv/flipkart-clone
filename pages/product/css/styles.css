@@ -1032,6 +1032,21 @@ main {
 	cursor: pointer;
 }
 
+.main-heart-btn {
+	color: #cfcfcf;
+	border: none;
+	position: relative;
+	float: right;
+	top: -80px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16), 0 -1px 2px 0 rgba(0, 0, 0, .16);
+
+}
+
 .bought-together-product-image:hover + .bought-together-product-name {
 	color: #2874f0;
 }
