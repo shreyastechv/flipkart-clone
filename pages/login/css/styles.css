@@ -312,3 +312,13 @@ footer {
 	color: #fff;
 	text-decoration: none;
 }
+
+@media (min-width: 1140px) {
+	.category-selector, .categories {
+		width: 100%;
+	}
+
+	.categories {
+		justify-content: space-between;
+	}
+}
