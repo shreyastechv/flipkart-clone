@@ -649,3 +649,13 @@ footer {
 .faded {
 	color: #878787;
 }
+
+@media (min-width: 1140px) {
+	.category-selector, .categories {
+		width: 100%;
+	}
+
+	.categories {
+		justify-content: space-between;
+	}
+}
